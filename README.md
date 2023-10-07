@@ -32,11 +32,11 @@ Voiceify is a voice-controlled Spotify player that allows you to control your Sp
    cd voiceify
 
 Create and activate a virtual environment:
-python -m venv venv
+`python -m venv venv`
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 Install the required dependencies:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 Set up your Spotify API credentials in a .env file:
 SPOTIPY_CLIENT_ID=your-client-id
@@ -45,8 +45,8 @@ SPOTIPY_REDIRECT_URI=your-redirect-uri
 
 
 Usage
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+`python -m venv venv`
+`source venv/bin/activate`  # On Windows, use `venv\Scripts\activate`
 
 
 Start using voice commands to control your Spotify playback and discover music.
