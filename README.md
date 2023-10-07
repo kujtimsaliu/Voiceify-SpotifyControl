@@ -44,8 +44,9 @@ SPOTIPY_REDIRECT_URI=your-redirect-uri
 
 
 Usage
-Run the application:
-python main.py
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
 
 Start using voice commands to control your Spotify playback and discover music.
 
