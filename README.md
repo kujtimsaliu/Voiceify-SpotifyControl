@@ -27,7 +27,7 @@ Voiceify is a voice-controlled Spotify player that allows you to control your Sp
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/voiceify.git
+   git clone https://github.com/kujtimsaliu/voiceify.git
    cd voiceify
 
 Create and activate a virtual environment:
@@ -58,6 +58,9 @@ Previous: Go back to the previous track.
 Search: Initiate a voice-based search for songs, artists, albums, or playlists.
 Volume: Adjust the music volume (e.g., "increase volume" or "decrease volume").
 Quit: Exit the application.
+
+
+Make sure to replace  `your-client-id`, `your-client-secret`, and `your-redirect-uri` with your actual Spotify API credentials.
 
 
 Contributing
