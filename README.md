@@ -1,7 +1,7 @@
 # Voiceify-SpotifyControl
 Enhance Your Spotify Experience with Voice Commands
 
-![Voiceify Logo](voiceify-logo.png)
+![image](https://github.com/kujtimsaliu/Voiceify-SpotifyControl/assets/36280465/592f395b-58fe-4d55-8df5-d1b77525d333)
 
 Voiceify is a voice-controlled Spotify player that allows you to control your Spotify music using voice commands. With Voiceify, you can play, pause, skip tracks, adjust the volume, and even search for your favorite songs, artists, and albums, all without lifting a finger.
 
