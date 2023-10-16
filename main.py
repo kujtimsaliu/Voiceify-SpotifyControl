@@ -43,30 +43,30 @@ def previous_track():
     sp.previous_track()
     print("Previous track.")
 
-def search_spotify(query):
-    results = sp.search(q=query, type='track,album,artist,playlist')
-    return results
+# def search_spotify(query):
+#     results = sp.search(q=query, type='track,album,artist,playlist')
+#     return results
 
 def adjust_volume(volume_percent):
     sp.volume(volume_percent)
 
-def voice_search():
-    with sr.Microphone() as source:
-        print("Listening for search query...")
-        audio = r.listen(source)
-        query = r.recognize_google(audio)
-        print(f"Received search query: {query}")
+# def voice_search():
+#     with sr.Microphone() as source:
+#         print("Listening for search query...")
+#         audio = r.listen(source)
+#         query = r.recognize_google(audio)
+#         print(f"Received search query: {query}")
 
-        # Search Spotify based on the query
-        results = search_spotify(query)
+#         # Search Spotify based on the query
+#         results = search_spotify(query)
 
-        # Process and display search results
-        for track in results['tracks']['items']:
-            print(f"Track: {track['name']}")
-            print(f"Artist: {', '.join([artist['name'] for artist in track['artists']])}")
-            print(f"Album: {track['album']['name']}")
-            print(f"Spotify URI: {track['uri']}")
-            print()
+#         # Process and display search results
+#         for track in results['tracks']['items']:
+#             print(f"Track: {track['name']}")
+#             print(f"Artist: {', '.join([artist['name'] for artist in track['artists']])}")
+#             print(f"Album: {track['album']['name']}")
+#             print(f"Spotify URI: {track['uri']}")
+#             print()
 
 def voice_volume_control():
     with sr.Microphone() as source:
